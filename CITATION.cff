@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "WRRA Modular Optical-Comb Prime Sieve"
+type: software
+authors:
+  - family-names: Choi
+    given-names: Wonsik
+date-released: 2026-09-27
+version: 1.0.0
+repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-modular-optical-comb-prime-sieve"
+keywords:
+  - WRRA
+  - optical frequency comb
+  - modular filter
+  - prime sieve
+  - minimal computation
+references:
+  - type: article
+    title: "WRRA / Prime-Sieve research record"
+    doi: 10.5281/zenodo.21869614

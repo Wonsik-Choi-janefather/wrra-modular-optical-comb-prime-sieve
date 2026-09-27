@@ -1,0 +1,80 @@
+{
+  "seed": 20260927,
+  "n_values": [
+    30,
+    210,
+    2310
+  ],
+  "trials_by_n": {
+    "30": 400,
+    "210": 200,
+    "2310": 40
+  },
+  "coefficient_phase_levels": [
+    0.0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "delay_fraction_levels": [
+    0.0,
+    1e-08,
+    3e-08,
+    1e-07,
+    3e-07,
+    1e-06,
+    3e-06,
+    1e-05,
+    3e-05,
+    0.0001,
+    0.0003,
+    0.001
+  ],
+  "mean_pass_rule": "mean F1 >= 0.95 and mean contrast >= 20 dB",
+  "conservative_pass_rule": "mean F1 >= 0.95, 5th-percentile F1 >= 0.95, and 5th-percentile contrast >= 20 dB",
+  "largest_tested_passing_level_mean": {
+    "coefficient_phase": {
+      "30": 0.1,
+      "210": 0.1,
+      "2310": 0.1
+    },
+    "delay_fraction": {
+      "30": 0.001,
+      "210": 0.0003,
+      "2310": 3e-05
+    }
+  },
+  "largest_tested_passing_level_conservative": {
+    "coefficient_phase": {
+      "30": 0.03,
+      "210": 0.1,
+      "2310": 0.1
+    },
+    "delay_fraction": {
+      "30": 0.001,
+      "210": 0.0003,
+      "2310": 3e-05
+    }
+  },
+  "model_scope": {
+    "included": [
+      "ideal DFT residue-class filters",
+      "tap amplitude calibration error",
+      "fixed tap phase-offset error",
+      "fractional delay error with line-index phase accumulation",
+      "prime/composite discrimination and Fourier-power observables"
+    ],
+    "excluded": [
+      "laser dynamics",
+      "nonlinear propagation",
+      "detector and feedback electronics",
+      "insertion loss and thermal crosstalk",
+      "error in protected-prime restoration"
+    ]
+  }
+}
