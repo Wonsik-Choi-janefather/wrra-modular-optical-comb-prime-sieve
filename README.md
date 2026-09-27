@@ -123,3 +123,7 @@ step is a small `N=30` pilot implementation.
 Citation metadata is provided in `CITATION.cff`. This repository does not yet
 assign a software or document license; reuse beyond normal citation therefore
 requires the author's permission.
+
+## Copyright
+
+Copyright (C) 2026 Wonsik Choi
