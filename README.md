@@ -116,7 +116,7 @@ step is a small `N=30` pilot implementation.
 
 ## Related work
 
-- WRRA / Prime-Sieve research record: https://doi.org/10.5281/zenodo.21869614
+- Related mathematical study: [*Prime-Sieve State-Space Renormalization and Irreducibility: Projective Lifting, Information Increment, and Falsifiable Physical Mappings*](https://doi.org/10.5281/zenodo.21869614), version 2.7.1. This DOI is **not** the DOI of the modular optical-comb report or this software package; no DOI for this exact work has been verified.
 
 ## Citation
 
