@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Choi
     given-names: Wonsik
+    orcid: "https://orcid.org/0009-0001-4263-9772"
 date-released: 2026-09-27
 version: 1.0.0
 repository-code: "https://github.com/Wonsik-Choi-janefather/wrra-modular-optical-comb-prime-sieve"
