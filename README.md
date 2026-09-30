@@ -142,3 +142,6 @@ This work is part of the open research and publishing corpus of **Wonsik Choi (ì
 Rights remain those stated in this repository and its linked archival record.
 
 **Copyright (C) 2026 Wonsik Choi**
+
+
+**ORCID:** [0009-0001-4263-9772](https://orcid.org/0009-0001-4263-9772)
